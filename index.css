@@ -1,0 +1,93 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin:0px;
+    position:absolute;
+    
+}
+#header{
+    position:absolute;
+    margin-left:5px;
+    background-color: rgb(252, 211, 8);
+    width:1350px;
+    height:50px;
+}
+
+#header a{
+    text-decoration: none;
+    font-family:'Oswald', sans-serif;
+    padding:10px;
+    margin:10px;
+    float:right;
+    color:white;
+}
+#header a:hover{
+    color:black;
+}
+#logo{
+    position:relative;
+    padding-top:10px;
+    left:20px;
+}
+#logotext{
+    position:relative;
+    left:80px;
+    padding:10px;
+    color:white;
+}
+#topcontent{
+    position:relative;
+    top:-39px;
+    width:1350px;
+    margin-left:5px;
+    height:150px;
+    background-color:black;
+
+}
+#check{
+    background-color: black;
+    border-color:rgb(252, 211, 8);
+    color:rgb(252, 211, 8);
+}
+#check:hover{
+    color:white;
+    border-color:white;
+}
+#images{
+    position:relative;
+    display:flex;
+}
+#content{
+    width:500px;
+    height:300px;
+    position: relative;
+    left:440px;
+    bottom:170px;
+    background-color: white;
+    color:black;
+    padding:20px;
+    text-align: justify;
+}
+span{
+    text-align:center;
+}
+#current{
+    background-color:white;
+    color:black;
+}
+#current:hover{
+    background-color: black;
+    color:white;
+}
+#corner{
+    position:relative;
+    width:400px;
+    height:100px;
+    left:40px;
+    bottom:1000px;
+    opacity:0.5;
+    background-color:black;
+    color:white;
+    padding:20px;
+}
